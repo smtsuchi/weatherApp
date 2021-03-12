@@ -1,4 +1,4 @@
-const key='dea6f2982077792ee4b5fe34771c0a37';
+const key='insert your own open weather api key here';
 const getWeather = async (city) => {
     const result = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}`);
     const data = await result.json();
