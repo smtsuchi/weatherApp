@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+}
+.container {
+    justify-content: center;
+}
+.container1 {
+    max-width: 1250px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container2 {
+    width: 400px;
+    display: flex;
+    margin: 2px;
+}
+.main {
+    margin-top: 1%;
+    border: 1px solid #ccc;
+    border-radius: 1%;
+    min-height: 85vh;
+    padding: 2vh;
+    background-image: url(https://i.pinimg.com/originals/26/be/b0/26beb09153b8df233d82e66bef3edfbb.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.search-bar {
+    display: flex;
+}
+h1{
+    color: white;
+    text-shadow: -2px 2px 5px rgba(26, 26, 26, 0.87);
+    text-align: center;
+}
+form {
+    justify-content: center;
+}
+/* 
+snow: https://64.media.tumblr.com/41f2189ce6eaf8c9c812cfe85f025a1d/tumblr_nckoolnw9z1tbzgzlo3_500.gif
+rain: https://media1.giphy.com/media/IuVFGSQZTd6TK/giphy.gif?cid=ecf05e47gx8b3nnao7oh157vfse8c5ysdb7k8hpurutwk5ij&rid=giphy.gif
+sunny: https://i1.wp.com/windowscustomization.com/wp-content/uploads/2019/06/Sunny-Day.gif?fit=768%2C432&quality=80&strip=all&ssl=1
+clouds: https://i.pinimg.com/originals/81/70/7e/81707ecdf1a6ee67570f16b066ae3268.gif
+mist: https://i.pinimg.com/originals/a5/e2/a2/a5e2a2bc1b13352458c9feadd3adfceb.gif
+default: http://i.imgur.com/iTTA2Pf.gif
+*/
+.beeg{
+    flex-direction: row;
+}
+.shoha-style {
+    width: 400px;
+}
+.btn-primary {
+    background-color: #4891ff;
+    border-color: #3988ff;
+}
+ul {
+    width: 400px;
+    position: relative;
+    color: white;
+    text-shadow: -2px 2px 5px rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight:500;
+    background-size: cover;
+    list-style: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 3px;
+}
+.close-btn{
+    position: absolute;
+    margin: 5px;
+    padding: 8px;
+    top: 0;
+    right: 0;
+}
+.snow {background-image: url(https://64.media.tumblr.com/41f2189ce6eaf8c9c812cfe85f025a1d/tumblr_nckoolnw9z1tbzgzlo3_500.gif)}
+.rain {background-image: url(https://media1.giphy.com/media/IuVFGSQZTd6TK/giphy.gif?cid=ecf05e47gx8b3nnao7oh157vfse8c5ysdb7k8hpurutwk5ij&rid=giphy.gif)}
+.clear {background-image: url(https://i1.wp.com/windowscustomization.com/wp-content/uploads/2019/06/Sunny-Day.gif?fit=768%2C432&quality=80&strip=all&ssl=1)}
+.clouds {background-image: url(https://i.pinimg.com/originals/81/70/7e/81707ecdf1a6ee67570f16b066ae3268.gif)}
+.mist {background-image: url(https://i.pinimg.com/originals/a5/e2/a2/a5e2a2bc1b13352458c9feadd3adfceb.gif)}
+.default {background-image: url(http://i.imgur.com/iTTA2Pf.gif)}
